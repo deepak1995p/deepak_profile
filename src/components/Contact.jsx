@@ -73,7 +73,7 @@ const Contact = () => {
             Hi, I'm Er. Deepak Patel
           </h3>
           <h4 className="mt-2 text-secondary  font-bold text-[24px] ">
-            I'm a Sr. Software Engineer.
+            Sr. Software Engineer.
           </h4>
           <p className="mt-2 flex py-1  text-secondary text-[14px]">
             <div className="sm:w-[80px] ">Location:&nbsp; </div>based in Haryana, India

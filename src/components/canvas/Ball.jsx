@@ -37,15 +37,15 @@ const Ball = (props) => {
   );
 };
 
-const BallCanvas = ({ icon }) => {
+const BallCanvas = ({ props }) => {
   return (
-    <div>
-      <img src={icon} alt="tech" />
+    <div className="d-flex flex-column justify-content-center">
+      <img src={props.icon} alt="tech" className="h-28"/>
+      <div className="text-center">{props.name}</div>
       {/* <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls enableZoom={false} /> */}
-      {/* <Ball imgUrl={icon} /> */}
-      {/* </Suspense>
-
+        <OrbitControls enableZoom={false} />
+      <Ball imgUrl={icon} />
+      </Suspense>
       <Preload all /> */}
     </div>
   );
