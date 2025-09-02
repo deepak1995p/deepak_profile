@@ -1,0 +1,47 @@
+[
+  {
+    "category": "Frontend",
+    "skills": [
+      { "name": "React", "level": 90 },
+      { "name": "Angular", "level": 85 },
+      { "name": "TypeScript", "level": 90 },
+      { "name": "JavaScript (ES6+)", "level": 90 },
+      { "name": "HTML5", "level": 95 },
+      { "name": "CSS3", "level": 90 }
+    ]
+  },
+  {
+    "category": "UI Kits",
+    "skills": [
+      { "name": "Tailwind CSS", "level": 90 },
+      { "name": "Material UI", "level": 85 },
+      { "name": "Bootstrap", "level": 85 }
+    ]
+  },
+  {
+    "category": "Data Viz",
+    "skills": [
+      { "name": "Chart.js", "level": 80 },
+      { "name": "Highcharts", "level": 80 }
+    ]
+  },
+  {
+    "category": "Platforms/Tools",
+    "skills": [
+      { "name": "Strapi", "level": 70 },
+      { "name": "Azure DevOps/Jira", "level": 80 },
+      { "name": "Stripe", "level": 70 },
+      { "name": "RSA Encryption basics", "level": 60 }
+    ]
+  },
+  {
+    "category": "Practices",
+    "skills": [
+      { "name": "Responsive design", "level": 90 },
+      { "name": "Accessibility", "level": 85 },
+      { "name": "Security-minded development", "level": 80 },
+      { "name": "Testing", "level": 80 },
+      { "name": "Performance optimization", "level": 85 }
+    ]
+  }
+]
