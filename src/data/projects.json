@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Find Dirt",
+    "role": "Frontend Developer",
+    "contributions": "Translated UI/UX wireframes to reusable components; integrated payments; implemented responsive layout for all screens.",
+    "tech": ["Angular 9", "Angular Material", "HTML", "Stripe.js"],
+    "links": {}
+  },
+  {
+    "title": "Playwize",
+    "role": "Frontend Developer",
+    "contributions": "Cross-browser compatibility; CMS content via Strapi; JIRA for tracking; fully responsive.",
+    "tech": ["Angular 10", "Angular Material", "HTML", "Strapi", "Bootstrap 4"],
+    "links": {}
+  },
+  {
+    "title": "JioWorks",
+    "role": "Frontend Developer",
+    "contributions": "Built dashboards and charts; created shared modules & API integrations; responsive across viewports.",
+    "tech": ["Angular 13", "Material", "HTML/CSS", "HighchartsJS", "Strapi"],
+    "links": {}
+  },
+  {
+    "title": "JioCampaign",
+    "role": "Frontend Developer",
+    "contributions": "Built campaign modules/APIs; customized email templates; implemented secure flows (login/OTP etc.).",
+    "tech": ["Angular 12", "Material", "TypeScript"],
+    "links": {}
+  },
+  {
+    "title": "Jio Observability",
+    "role": "Frontend Developer",
+    "contributions": "Created analytics dashboards; managed content with Strapi; multiple email templates; Azure DevOps pipelines.",
+    "tech": ["Angular 13", "Strapi", "HTML/CSS", "Bootstrap", "Highcharts"],
+    "links": {}
+  },
+  {
+    "title": "illPeopleMusic",
+    "role": "Frontend Developer",
+    "contributions": "E-commerce flows for beats/music; Stripe payments; modular components and API integrations.",
+    "tech": ["Angular", "MUI/Material", "CSS", "Stripe"],
+    "links": {}
+  },
+  {
+    "title": "Incyte Commercial",
+    "role": "Frontend Developer",
+    "contributions": "Emphasis on data protection: RSA encryption integrated for transmission/storage; audits & compliance; dashboards; \"metaverse\" module integration.",
+    "tech": ["Angular", "HTML/CSS", "MUI/Bootstrap", "Chart.js"],
+    "links": {}
+  },
+  {
+    "title": "Data Wizard",
+    "role": "Frontend Developer",
+    "contributions": "Dynamic forms; efficient data management; dashboard visualizations.",
+    "tech": ["Angular 14", "MUI", "Bootstrap", "Chart.js"],
+    "links": {}
+  },
+  {
+    "title": "Povorcitinib Clinical Trial",
+    "role": "Frontend Developer",
+    "contributions": "Security-first development: authentication hardening, encryption at rest/in-transit, role-based access; clinical dashboards.",
+    "tech": ["Angular 14", "MUI", "Bootstrap", "Chart.js"],
+    "links": {}
+  },
+  {
+    "title": "Additional Projects",
+    "role": "",
+    "contributions": "+2 more projects",
+    "tech": [],
+    "links": {}
+  }
+]

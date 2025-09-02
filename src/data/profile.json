@@ -1,0 +1,20 @@
+{
+  "name": "Deepak Patel",
+  "title": "Software Developer",
+  "tagline": "Building fast, accessible, and scalable web apps.",
+  "email": "deepak1995p@gmail.com",
+  "phone": ["+91-7357306718", "+91-8708720443"],
+  "location": "Panipat, Haryana, India",
+  "github": "https://github.com/deepak1995p",
+  "linkedin": "https://www.linkedin.com/in/deepak-patel-071105174/",
+  "languages": ["Hindi", "English"],
+  "interests": [
+    "Volleyball",
+    "Cricket",
+    "Chess",
+    "Singing",
+    "Music",
+    "Reading",
+    "Gardening"
+  ]
+}
