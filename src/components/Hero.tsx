@@ -13,13 +13,12 @@ export default function Hero() {
           </p>
           <a
             href="#case-studies"
-            className="inline-block mt-6 px-6 py-3 rounded-lg font-semibold shadow-md bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 transition-colors transition-transform hover:scale-105"
-
+            className="inline-block mt-6 px-6 py-3 rounded-lg font-semibold shadow-md bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 transition-colors  hover:scale-105"
           >
             Let’s Get Started
           </a>
         </div>
-        <div className="flex-1 flex justify-center">
+        <div className="flex-1 flex justify-center font-sans">
           <img
             src="/profile.svg"
             alt={profile.name}
