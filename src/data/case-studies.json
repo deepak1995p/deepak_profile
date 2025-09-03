@@ -1,0 +1,26 @@
+[
+  {
+    "label": "FinTech",
+    "title": "Payment Platform Revamp",
+    "description": "Redesigned the checkout experience for better conversion.",
+    "image": "/case-studies/case1.svg",
+    "tagColor": "bg-yellow-400",
+    "buttonColor": "bg-yellow-400 hover:bg-yellow-500"
+  },
+  {
+    "label": "EdTech",
+    "title": "Online Learning Portal",
+    "description": "Built a scalable platform for remote education.",
+    "image": "/case-studies/case2.svg",
+    "tagColor": "bg-blue-600",
+    "buttonColor": "bg-blue-600 hover:bg-blue-700"
+  },
+  {
+    "label": "Pharma",
+    "title": "Clinical Trial Dashboard",
+    "description": "Streamlined data reporting for medical studies.",
+    "image": "/case-studies/case3.svg",
+    "tagColor": "bg-emerald-500",
+    "buttonColor": "bg-emerald-500 hover:bg-emerald-600"
+  }
+]

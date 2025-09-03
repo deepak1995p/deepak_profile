@@ -33,3 +33,26 @@ export interface Project {
   tech: string[];
   links: Record<string, string>;
 }
+
+export interface CaseStudy {
+  label: string;
+  title: string;
+  description: string;
+  image: string;
+  tagColor: string;
+  buttonColor: string;
+}
+
+export interface Testimonial {
+  quote: string;
+  author: string;
+  role: string;
+  avatar: string;
+}
+
+export interface Work {
+  title: string;
+  description: string;
+  image: string;
+  link: string;
+}
