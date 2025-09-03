@@ -20,6 +20,7 @@ export default function RecentWork() {
               <a
                 href={w.link}
                 className="inline-block mt-4 px-4 py-2 rounded-lg shadow-md bg-green-500 text-white hover:bg-green-600 transition-colors transition-transform hover:scale-105"
+
               >
                 Know More
               </a>

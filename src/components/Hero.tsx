@@ -8,11 +8,13 @@ export default function Hero() {
         <div className="flex-1 text-center md:text-left">
           <h1 className="text-3xl md:text-4xl font-bold">{profile.name}</h1>
           <p className="mt-4 text-gray-600 dark:text-gray-400 max-w-md md:mx-0 mx-auto">
+
             {profile.tagline}
           </p>
           <a
             href="#case-studies"
             className="inline-block mt-6 px-6 py-3 rounded-lg font-semibold shadow-md bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 transition-colors transition-transform hover:scale-105"
+
           >
             Let’s Get Started
           </a>
