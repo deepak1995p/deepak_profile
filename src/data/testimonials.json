@@ -1,0 +1,26 @@
+[
+  {
+    "quote": "Deepak is a fantastic developer who delivers on time.",
+    "author": "Client A",
+    "role": "Project Manager",
+    "avatar": "/avatars/avatar1.svg"
+  },
+  {
+    "quote": "Working with Deepak was a pleasure and the results were outstanding.",
+    "author": "Client B",
+    "role": "CTO",
+    "avatar": "/avatars/avatar2.svg"
+  },
+  {
+    "quote": "He quickly understands requirements and turns them into quality code.",
+    "author": "Client C",
+    "role": "Product Owner",
+    "avatar": "/avatars/avatar3.svg"
+  },
+  {
+    "quote": "Reliable, communicative, and very skilled developer.",
+    "author": "Client D",
+    "role": "CEO",
+    "avatar": "/avatars/avatar4.svg"
+  }
+]
