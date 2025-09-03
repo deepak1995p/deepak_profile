@@ -10,32 +10,36 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="bg-gray-100 dark:bg-gray-800 py-12">
-      <div className="max-w-md mx-auto space-y-4">
-        <h2 className="text-3xl font-bold text-center">Get in Touch</h2>
-        <form onSubmit={handleSubmit} className="space-y-4">
-          <input
-            name="name"
-            placeholder="Name"
-            className="w-full p-2 rounded bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700"
-            required
-          />
+    <section id="contact" className="bg-black text-white py-16">
+      <div className="max-w-md mx-auto px-4">
+        <h2 className="text-3xl md:text-4xl font-bold text-center">Get In Touch</h2>
+        <p className="text-lg text-gray-500 text-center mt-2">
+          I'd love to hear from you
+        </p>
+        <form onSubmit={handleSubmit} className="mt-8 space-y-4">
           <input
             name="email"
             type="email"
             placeholder="Email"
-            className="w-full p-2 rounded bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700"
+            className="w-full p-3 rounded-md text-black"
+            required
+          />
+          <input
+            name="mobile"
+            type="tel"
+            placeholder="Mobile"
+            className="w-full p-3 rounded-md text-black"
             required
           />
           <textarea
             name="message"
             placeholder="Message"
-            className="w-full p-2 h-32 rounded bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700"
+            className="w-full p-3 h-32 rounded-md text-black"
             required
           />
           <button
             type="submit"
-            className="w-full py-2 rounded-md bg-green-600 text-white hover:bg-green-700"
+            className="w-full px-6 py-3 bg-gradient-to-r from-green-500 to-green-600 rounded-lg font-semibold hover:scale-105 transition"
           >
             Send Message
           </button>

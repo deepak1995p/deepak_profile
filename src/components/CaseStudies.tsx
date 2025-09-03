@@ -1,27 +1,41 @@
 import React from 'react';
-import projects from '../data/projects.json';
+import studies from '../data/case-studies.json';
+import { CaseStudy } from '../data/types';
 
 export default function CaseStudies() {
-  const studies = projects.slice(0, 3);
   return (
-    <section id="case-studies" className="max-w-5xl mx-auto py-12 space-y-8">
-      <h2 className="text-3xl font-bold text-center">Case Studies</h2>
-      <div className="grid gap-8 md:grid-cols-3">
-        {studies.map((project) => (
-          <div key={project.title} className="bg-white dark:bg-gray-800 rounded-lg shadow">
-            <img
-              src="https://via.placeholder.com/400x250"
-              alt={project.title}
-              className="w-full h-48 object-cover rounded-t-lg"
-            />
-            <div className="p-4 space-y-2">
-              <h3 className="text-xl font-semibold">{project.title}</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-300">
-                {project.contributions}
-              </p>
+    <section id="case-studies" className="bg-white py-16">
+      <div className="max-w-6xl mx-auto px-4">
+        <h2 className="text-3xl md:text-4xl font-bold text-center">Case Studies</h2>
+        <p className="text-lg text-gray-500 text-center mt-2">
+          A selection of projects
+        </p>
+        <div className="mt-10 space-y-12">
+          {(studies as CaseStudy[]).map((c, idx) => (
+            <div key={idx} className="grid md:grid-cols-2 gap-8 items-center">
+              <div className="order-2 md:order-1 space-y-4">
+                <span className={`px-3 py-1 text-sm text-white rounded-md ${c.tagColor}`}>
+                  {c.label}
+                </span>
+                <h3 className="text-2xl font-semibold">{c.title}</h3>
+                <p className="text-gray-500">{c.description}</p>
+                <a
+                  href="#"
+                  className={`inline-block px-4 py-2 rounded-md text-white font-medium ${c.buttonColor} transition`}
+                >
+                  View case study
+                </a>
+              </div>
+              <div className="order-1 md:order-2 flex justify-center">
+                <img
+                  src={c.image}
+                  alt={c.title}
+                  className="w-full md:w-[500px] rounded-xl"
+                />
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </section>
   );

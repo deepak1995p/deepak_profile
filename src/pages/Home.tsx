@@ -1,6 +1,5 @@
 import React from 'react';
 import Hero from '../components/Hero';
-import Services from '../components/Services';
 import CaseStudies from '../components/CaseStudies';
 import Testimonials from '../components/Testimonials';
 import RecentWork from '../components/RecentWork';
@@ -11,7 +10,6 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Services />
       <CaseStudies />
       <Testimonials />
       <RecentWork />

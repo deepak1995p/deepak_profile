@@ -3,36 +3,41 @@ import profile from '../data/profile.json';
 
 export default function Hero() {
   return (
-    <section
-      id="hero"
-      className="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100"
-    >
-      <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-center gap-8 py-24">
-        <div className="flex-1 text-center md:text-left space-y-4">
-          <h1 className="text-5xl font-bold tracking-tight">{profile.name}</h1>
-          <p className="text-xl text-gray-600 dark:text-gray-300">{profile.tagline}</p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start pt-4">
-            <a
-              href="#recent-work"
-              className="px-6 py-3 rounded-md bg-blue-600 text-white shadow hover:bg-blue-700 transition"
-            >
-              View Projects
-            </a>
-            <a
-              href="/Deepak-Patel-Resume.pdf"
-              download
-              className="px-6 py-3 rounded-md border border-blue-600 text-blue-600 dark:text-blue-400 hover:bg-gray-100 dark:hover:bg-gray-800"
-            >
-              Download Resume
-            </a>
-          </div>
+    <section id="hero" className="bg-black text-white py-16">
+      <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center gap-10">
+        <div className="flex-1 text-center md:text-left">
+          <h1 className="text-3xl md:text-4xl font-bold">{profile.name}</h1>
+          <p className="mt-4 text-gray-400 max-w-md md:mx-0 mx-auto">
+            {profile.tagline}
+          </p>
+          <a
+            href="#case-studies"
+            className="inline-block mt-6 px-6 py-3 bg-gradient-to-r from-green-500 to-green-600 rounded-lg font-semibold hover:scale-105 transition"
+          >
+            Let’s Get Started
+          </a>
         </div>
         <div className="flex-1 flex justify-center">
           <img
-            src="https://via.placeholder.com/200"
+            src="/profile.svg"
             alt={profile.name}
-            className="rounded-full border-4 border-green-500"
+            className="w-56 h-56 rounded-full object-cover"
           />
+        </div>
+      </div>
+      <div className="mt-16">
+        <p className="text-center text-gray-500 uppercase tracking-wider mb-6">
+          Worked with
+        </p>
+        <div className="flex flex-wrap justify-center items-center gap-8 grayscale">
+          {['clickup', 'dropbox', 'paychex', 'esestic', 'stripe'].map((logo) => (
+            <img
+              key={logo}
+              src={`/logos/${logo}.svg`}
+              alt={logo}
+              className="h-10 w-auto"
+            />
+          ))}
         </div>
       </div>
     </section>
