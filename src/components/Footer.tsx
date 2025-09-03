@@ -1,11 +1,4 @@
 import React from 'react';
-// <<<<<<< codex/review-code-repository-jmyytw
-
-// export default function Footer() {
-//   return (
-//     <footer className="bg-black text-white text-center py-4">
-//       Made with ❤️
-// =======
 import profile from '../data/profile.json';
 
 export default function Footer() {
@@ -32,7 +25,6 @@ export default function Footer() {
           </a>
         </div>
       </div>
-<!-- >>>>>>> main -->
     </footer>
   );
 }

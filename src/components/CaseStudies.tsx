@@ -13,7 +13,9 @@ export default function CaseStudies() {
         <div className="mt-10 space-y-12">
           {(studies as CaseStudy[]).map((c, idx) => (
             <div key={idx} className="grid md:grid-cols-2 gap-8 items-center">
-              <div className="order-2 md:order-1 space-y-4">
+              <div
+                className={`order-2 md:${idx % 2 === 0 ? 'order-1' : 'order-2'} space-y-4`}
+              >
                 <span className={`px-3 py-1 text-sm text-white rounded-md ${c.tagColor}`}>
                   {c.label}
                 </span>
@@ -26,7 +28,9 @@ export default function CaseStudies() {
                   View case study
                 </a>
               </div>
-              <div className="order-1 md:order-2 flex justify-center">
+              <div
+                className={`order-1 md:${idx % 2 === 0 ? 'order-2' : 'order-1'} flex justify-center`}
+              >
                 <img
                   src={c.image}
                   alt={c.title}
