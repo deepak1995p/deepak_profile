@@ -3,7 +3,7 @@ import profile from '../data/profile.json';
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-100 py-4 mt-12">
+    <footer className="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 py-4 mt-12">
       <div className="max-w-5xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
         <span>&copy; {new Date().getFullYear()} {profile.name}</span>
         <div className="space-x-4">
