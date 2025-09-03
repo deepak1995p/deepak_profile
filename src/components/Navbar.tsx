@@ -19,19 +19,19 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className="sticky top-0 z-50 bg-black text-white">
+    <nav className="sticky top-0 z-50 bg-white text-black dark:bg-black dark:text-white shadow">
       <div className="max-w-6xl mx-auto flex items-center justify-between px-4 py-3">
-        <div className="flex space-x-6">
-          {links.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              className={`${hash === link.href ? 'font-semibold' : 'text-gray-300'} hover:text-white transition`}
-            >
-              {link.label}
-            </a>
-          ))}
-        </div>
+          <div className="flex space-x-6">
+            {links.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                className={`${hash === link.href ? 'font-semibold' : 'text-gray-700 dark:text-gray-300'} hover:text-black dark:hover:text-white transition-colors`}
+              >
+                {link.label}
+              </a>
+            ))}
+          </div>
         <div className="flex items-center gap-4">
           <a
             href="https://behance.net"
